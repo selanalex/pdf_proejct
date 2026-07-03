@@ -4,9 +4,9 @@ from gtts import gTTS
 from io import BytesIO
 
 def main():
-    st.set_page_config(page_title="PragyanAI - VVIET Multimedia Hub", layout="wide")
+    st.set_page_config(page_title="Selan - Multimedia Hub", layout="wide")
     st.image("selan.png")
-    st.title(" PragyanAI Multi-Functional Media Hub")
+    st.title(" SELAN Multi-Functional Media Hub")
     
     # Create Tabs for Video, YouTube, and PDF
     tab1, tab2, tab3 = st.tabs(["📹 Local Video", "📺 YouTube Player", "📄 PDF to Audio"])
